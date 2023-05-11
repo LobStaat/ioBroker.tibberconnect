@@ -1,0 +1,51 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "tibberconnect",
+	"title": "tibberconnect",
+	"description": "connection of tibber",
+	"keywords": [
+		"tibber",
+		"iot"
+	],
+	"authorName": "LobStaat",
+	"authorGithub": "LobStaat",
+	"authorEmail": "lobstaat@gmail.com",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "iot-systems",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "option1",
+			"inputType": "checkbox",
+			"defaultValue": true
+		},
+		{
+			"key": "option2",
+			"defaultValue": "42",
+			"inputType": "text"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
